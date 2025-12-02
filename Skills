@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ทักษะความสามารถ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .skill {
+            margin-bottom: 20px;
+        }
+        .skill-name {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .skill-bar {
+            background: #ddd;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 20px;
+        }
+        .skill-level {
+            height: 100%;
+            background: #4CAF50;
+            text-align: right;
+            padding-right: 10px;
+            color: white;
+            line-height: 20px;
+            border-radius: 20px 0 0 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>ทักษะความสามารถ</h1>
+
+    <!-- ทักษะ 1 -->
+    <div class="skill">
+        <div class="skill-name">HTML & CSS</div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 90%;">90%</div>
+        </div>
+    </div>
+
+    <!-- ทักษะ 2 -->
+    <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 75%;">75%</div>
+        </div>
+    </div>
+
+    <!-- ทักษะ 3 -->
+    <div class="skill">
+        <div class="skill-name">การสื่อสาร</div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 85%;">85%</div>
+        </div>
+    </div>
+
+    <!-- ทักษะ 4 -->
+    <div class="skill">
+        <div class="skill-name">การทำงานเป็นทีม</div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 80%;">80%</div>
+        </div>
+    </div>
+
+    <!-- ทักษะ 5 -->
+    <div class="skill">
+        <div class="skill-name">การแก้ปัญหา</div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 70%;">70%</div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
