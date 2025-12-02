@@ -1,0 +1,29 @@
+!DOCTYPE html>
+
+<html lang="th">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>My Portfolio</title>
+
+</head>
+
+<body>
+
+<h1>ยินดีต้อนรับสู่แฟ้มสะสมผลงาน</h1>
+
+<p>ฉันคือ [โสภิตา ขนุนอ่อน] นักศึกษาสาขา [เทคโนโลยีสารสนเทศ] วิทยาลัย [เทคนิคทุงสง]</p>
+
+<a href="about.html">ประวัติส่วนตัว</a><br>
+
+<a href="works/project1.html">ผลงาน</a><br>
+
+<a href="skills.html">ทักษะ</a><br>
+
+<a href="contact.html">ติดต่อฉัน</a>
+
+</body>
+
+</html>
