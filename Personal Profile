@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ประวัติส่วนตัว</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .section-title {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #444;
+        }
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <img src="profile.jpg" alt="รูปประจำตัว" class="profile-img">
+
+    <h1>ประวัติส่วนตัว</h1>
+
+    <h2 class="section-title">ข้อมูลทั่วไป</h2>
+    <ul>
+        <li><strong>ชื่อ-นามสกุล:</strong> น.ส.โสภิตา ขนุนอ่อน </li>
+        <li><strong>ชื่อเล่น:</strong> หยก </li>
+        <li><strong>วันเกิด:</strong> 1 มกราคม 2000</li>
+        <li><strong>ที่อยู่:</strong> ใส่ที่อยู่ของคุณ</li>
+        <li><strong>อีเมล:</strong> example@email.com</li>
+        <li><strong>เบอร์โทร:</strong> 090-000-0000</li>
+    </ul>
+
+    <h2 class="section-title">การศึกษา</h2>
+    <ul>
+        
+        <li>โรงเรียนวิทยาลัยเทคนิคทุ่งสง</li>
+    </ul>
+
+    <h2 class="section-title">ทักษะ</h2>
+    <ul>
+        <li>ทักษะที่ 1</li>
+        <li>ทักษะที่ 2</li>
+        <li>ทักษะที่ 3</li>
+    </ul>
+
+    <h2 class="section-title">ความสนใจ</h2>
+    <ul>
+        <li>งานอดิเรก 1</li>
+        <li>งานอดิเรก 2</li>
+        <li>งานอดิเรก 3</li>
+    </ul>
+
+</div>
+
+</body>
+</html>
